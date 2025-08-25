@@ -152,4 +152,3 @@ The project follows a structured MLOps workflow:
 - **Unit Testing**: Add comprehensive unit tests with `Pytest` to ensure code quality and reliability.
 - **Monitoring**: Integrate Prometheus and Grafana for live monitoring of the deployed application's performance and health.
 ```
-</markdo
