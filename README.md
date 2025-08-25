@@ -1,6 +1,5 @@
 # AI-Powered Real Estate Price Predictor
 
-![Project Banner](https://user-images.githubusercontent.com/81335737/172108159-228f4d99-8260-4a6f-871d-e4d306283d58.png)
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.12%2B-red?logo=pytorch)](https://pytorch.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Ready-brightgreen?logo=fastapi)](https://fastapi.tiangolo.com/)
