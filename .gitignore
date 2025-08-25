@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / C extensions
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE and editor folders
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+logs/
+*.log
+
+# Data files - Never commit raw or processed data to Git
+data/raw/
+data/processed/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Trained models - These are large binary files
+models/
+
+# Project documentation and local command files
+rules.md
+system_design.md
+folder_structure_commands.md
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
