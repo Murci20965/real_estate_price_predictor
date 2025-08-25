@@ -104,7 +104,7 @@ pip install -r requirements.txt
 ### 3. Train the Model
 Run the training script to preprocess data and train the model.
 ```bash
-python src/train.py
+python -m src.train
 ```
 
 ### 4. Run the Application Locally
