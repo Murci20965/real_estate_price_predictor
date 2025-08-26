@@ -93,7 +93,7 @@ if st.sidebar.button("Predict Price"):
 
     # 2. Send the request to the FastAPI backend
     try:
-        api_url = "http://127.0.0.1:8000/predict"
+        api_url = "http://predictor-prod-env.eba-hetgzns3.us-east-1.elasticbeanstalk.com/predict"
         response = requests.post(api_url, data=json.dumps(api_payload))
         response.raise_for_status()
 
