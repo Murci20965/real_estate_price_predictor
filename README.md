@@ -1,9 +1,13 @@
 # AI-Powered Real Estate Price Predictor
 
+![Project Banner](https://user-images.githubusercontent.com/81335737/172108159-228f4d99-8260-4a6f-871d-e4d306283d58.png)
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-1.12%2B-red?logo=pytorch)](https://pytorch.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-Ready-brightgreen?logo=fastapi)](https://fastapi.tiangolo.com/)
+[![XGBoost](https://img.shields.io/badge/XGBoost-Model-green?logo=xgboost)](https://xgboost.ai/)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Pipeline-orange?logo=scikit-learn)](https://scikit-learn.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-API-brightgreen?logo=fastapi)](https://fastapi.tiangolo.com/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-UI-red?logo=streamlit)](https://streamlit.io/)
 [![Docker](https://img.shields.io/badge/Docker-Containerized-blue?logo=docker)](https://www.docker.com/)
+[![AWS](https://img.shields.io/badge/AWS-Deployed-yellow?logo=amazon-aws)](https://aws.amazon.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ## 📖 Overview
 
@@ -40,7 +44,7 @@ This project utilizes a modern, robust tech stack to ensure scalability, maintai
 | **Backend API** | `FastAPI` |
 | **Web UI** | `Streamlit` |
 | **Containerization** | `Docker` |
-| **Testing** | `Pytest` (Future Goal) |
+| **Testing** | `Pytest` |
 | **Logging** | Python `logging` module |
 | **Monitoring** | `Prometheus`, `Grafana` (Future Goal) |
 | **CI/CD** | `GitHub Actions` (Future Goal) |
@@ -97,8 +101,11 @@ python -m venv venv
 # Activate it (Windows)
 venv\Scripts\activate
 
-# Install requirements
+# Install all required packages from the requirements file
 pip install -r requirements.txt
+
+# Install the project in editable mode to make local modules importable
+pip install -e .
 ```
 
 ### 3. Train the Model
@@ -135,6 +142,19 @@ The application API will be available at `http://localhost:8000`.
 
 ---
 
+## ✅ Testing
+
+To run the automated unit tests, first ensure you have installed the testing framework:
+```bash
+pip install pytest
+```
+Then, run the following command from the project root:
+```bash
+pytest
+```
+
+---
+
 ## 📈 Project Workflow
 
 The project follows a structured MLOps workflow:
@@ -149,6 +169,5 @@ The project follows a structured MLOps workflow:
 
 ## 🎯 Future Goals
 - **CI/CD Automation**: Implement a full CI/CD pipeline with GitHub Actions to automate testing and deployment.
-- **Unit Testing**: Add comprehensive unit tests with `Pytest` to ensure code quality and reliability.
 - **Monitoring**: Integrate Prometheus and Grafana for live monitoring of the deployed application's performance and health.
 ```

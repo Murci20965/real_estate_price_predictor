@@ -38,3 +38,6 @@ folder_structure_commands.md
 build/
 dist/
 *.egg-info/
+
+# Build artifacts and packages
+*.zip
