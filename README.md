@@ -1,6 +1,5 @@
 # AI-Powered Real Estate Price Predictor
 
-![Project Banner](https://user-images.githubusercontent.com/81335737/172108159-228f4d99-8260-4a6f-871d-e4d306283d58.png)
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python)](https://www.python.org/)
 [![XGBoost](https://img.shields.io/badge/XGBoost-Model-green?logo=xgboost)](https://xgboost.ai/)
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Pipeline-orange?logo=scikit-learn)](https://scikit-learn.org/)
