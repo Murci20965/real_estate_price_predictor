@@ -12,6 +12,9 @@ from src.config import ROOT_DIR
 # Define the format for log messages
 LOG_FORMAT = "%(asctime)s - %(levelname)s - %(name)s - %(message)s"
 LOG_DIR = ROOT_DIR / "logs"
+# --- START OF FIX ---
+LOG_DIR.mkdir(parents=True, exist_ok=True) # Create the logs directory if it doesn't exist
+# --- END OF FIX ---
 LOG_DIR.mkdir(exist_ok=True) # Create the logs directory if it doesn't exist
 LOG_FILE = LOG_DIR / "app.log"
 

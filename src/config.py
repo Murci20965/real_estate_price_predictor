@@ -14,6 +14,12 @@ RAW_DATA_DIR = DATA_DIR / "raw"
 PROCESSED_DATA_DIR = DATA_DIR / "processed"
 MODEL_DIR = ROOT_DIR / "models"
 
+# --- START OF FIX ---
+# Create directories if they don't exist, including parent directories
+PROCESSED_DATA_DIR.mkdir(parents=True, exist_ok=True)
+MODEL_DIR.mkdir(parents=True, exist_ok=True)
+# --- END OF FIX ---
+
 # Create directories if they don't exist
 PROCESSED_DATA_DIR.mkdir(exist_ok=True)
 MODEL_DIR.mkdir(exist_ok=True)
