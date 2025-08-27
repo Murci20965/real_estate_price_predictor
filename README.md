@@ -55,8 +55,6 @@ This project is configured with a complete CI/CD pipeline using GitHub Actions. 
 2.  **Build & Push**: A new Docker image is built and pushed to a private Amazon ECR repository.
 3.  **Deploy**: The new image is automatically deployed to the AWS Elastic Beanstalk environment, updating the live application.
 
-![CI/CD Workflow Diagram](https://user-images.githubusercontent.com/81335737/172108162-83332158-3907-4665-9288-87d2c3498363.png)
-
 ---
 
 ## 🚀 Getting Started
